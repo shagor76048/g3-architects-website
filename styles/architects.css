@@ -96,12 +96,14 @@ main > section{
     font-weight: 500;
 }
 
+
+
+/* banner related styles */
+
 .banner{
      margin: 0 auto;
     max-width: 1440px;
 }
-
-/* banner related styles */
 
 .banner-content{
     max-width: 850px;
@@ -234,6 +236,26 @@ main > section{
 }
 
 
+/* footer style */
+
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+     
+}
+
+.footer-container{
+    max-width: 1440px;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    
+    border-radius: 8px;
+    text-align: center;
+
+}
 
 /* responsive media query */
 
