@@ -165,6 +165,22 @@ main > section{
      border-radius: 8px;
 }
 
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect img{
+    width: 100%;
+}
+
 
 
 /* some facts related styles*/
@@ -223,7 +239,8 @@ main > section{
 
 @media screen and (max-width:576px) {
      .nav-links,
-     .teams{
+     .teams,
+     .features{
         flex-direction: column;
     }
 
@@ -238,7 +255,10 @@ main > section{
         justify-items: center;
         gap: 24px;
     }
-
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
 }
 
